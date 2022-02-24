@@ -1,5 +1,6 @@
 package net.zerotoweb.api;
 
+import net.zerotoweb.api.member.controller.MemberController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
