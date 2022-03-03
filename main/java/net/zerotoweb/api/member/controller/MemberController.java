@@ -6,6 +6,8 @@ import net.zerotoweb.api.member.domain.MemberDTO;
 import net.zerotoweb.api.member.service.MemberService;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Random;
+
 /**
  * packageName: net.zerotoweb.api.member.controller
  * fileName   : MemberController
@@ -24,6 +26,9 @@ public class MemberController {
     private final MemberService service;
 
     @PostMapping("/calc") public String calc(@RequestBody CalcDTO calc){
+
+        int a = (int)Math.random();
+        Random r = new Random();
         return service.calc(calc);
     }
     @PostMapping("/bmi") public String bmi(@RequestBody MemberDTO bmi){
