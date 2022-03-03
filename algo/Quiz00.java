@@ -8,6 +8,25 @@ import java.util.Scanner;
  * 2022-03-03   parkjungkwan  최초 생성
  */
 public class Quiz00 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true){
+            System.out.println("00팀별과제 01주사위 02가위바위보 03 04 05 06 07 08 09");
+            switch (scanner.next()){
+                case "00": quiz00team(); break;
+                case "01": quiz01dice(); break;
+                case "02": quiz02rps(); break;
+                case "03": quiz03prime(); break;
+                case "04": quiz04leap(); break;
+                case "05": quiz05guess(); break;
+                case "06": quiz06lotto(); break;
+                case "07": quiz07booking(); break;
+                case "08": quiz08bank(); break;
+                case "09": quiz09gugudan(); break;
+                default:return;
+            }
+        }
+    } // main
     static void quiz00team(){
         String[] arr = {"권혜민","조현국","김진영","김한슬","서성민",
                 "정렬","해시","힙","완전탐색","DP",
@@ -218,24 +237,6 @@ public class Quiz00 {
         }
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        while (true){
-            System.out.println("00팀별과제 01주사위 02가위바위보 03 04 05 06 07 08 09");
-            switch (scanner.next()){
-                case "00": quiz00team(); break;
-                case "01": quiz01dice(); break;
-                case "02": quiz02rps(); break;
-                case "03": quiz03prime(); break;
-                case "04": quiz04leap(); break;
-                case "05": quiz05guess(); break;
-                case "06": quiz06lotto(); break;
-                case "07": quiz07booking(); break;
-                case "08": quiz08bank(); break;
-                case "09": quiz09gugudan(); break;
-                default:return;
-            }
-        }
-    } // main
+
 }
 

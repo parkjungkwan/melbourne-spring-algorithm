@@ -7,6 +7,24 @@ import java.util.Scanner;
  * 2022-03-03   parkjungkwan  최초 생성
  */
 public class Quiz10 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true){
+            System.out.println("10버블 11삽입 12선택 13퀵 14병합 15매직 16지그재그 17직각별 18정삼각별 19");
+            switch (scanner.next()){
+                case "10": quiz10(); break;
+                case "11": quiz11(); break;
+                case "12": quiz12(); break;
+                case "13": quiz13(); break;
+                case "14": quiz14(); break;
+                case "15": quiz15(); break;
+                case "16": quiz16(); break;
+                case "17": quiz17(); break;
+                case "18": quiz18(); break;
+                case "19": quiz19(); break;
+            }
+        }
+    } // main
     static void quiz10(){
 
     }
@@ -38,23 +56,6 @@ public class Quiz10 {
 
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        while (true){
-            System.out.println("10버블 11삽입 12선택 13퀵 14병합 15매직 16지그재그 17직각별 18정삼각별 19");
-            switch (scanner.next()){
-                case "10": quiz10(); break;
-                case "11": quiz11(); break;
-                case "12": quiz12(); break;
-                case "13": quiz13(); break;
-                case "14": quiz14(); break;
-                case "15": quiz15(); break;
-                case "16": quiz16(); break;
-                case "17": quiz17(); break;
-                case "18": quiz18(); break;
-                case "19": quiz19(); break;
-            }
-        }
-    } // main
+
 }
 
