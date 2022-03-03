@@ -11,7 +11,7 @@ public class Quiz00 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (true){
-            System.out.println("00팀별과제 01주사위 02가위바위보 03 04 05 06 07 08 09");
+            System.out.println("00팀별과제 01주사위 02가위바위보 03소수 04윤년 05숫자추론 06로또 07예약 08입출금 09구구단");
             switch (scanner.next()){
                 case "00": quiz00team(); break;
                 case "01": quiz01dice(); break;
