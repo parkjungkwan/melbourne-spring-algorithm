@@ -10,7 +10,7 @@ public class Quiz10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (true){
-            System.out.println("10버블 11삽입 12선택 13퀵 14병합 15매직 16지그재그 17직각별 18정삼각별 19");
+            System.out.println("10버블 11삽입 12선택 13퀵 14병합 15매직 16지그재그 17직각별 18정삼각별 19예약");
             switch (scanner.next()){
                 case "10": quiz10(); break;
                 case "11": quiz11(); break;
@@ -29,10 +29,10 @@ public class Quiz10 {
 
     }
     static void quiz11(){
-        System.out.println("01주사위");
+
     }
     static void quiz12(){
-        System.out.println("02가위바위보");
+
     }
     static void quiz13(){
 
@@ -55,7 +55,5 @@ public class Quiz10 {
     static void quiz19(){
 
     }
-
-
 }
 
